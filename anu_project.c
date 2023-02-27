@@ -424,6 +424,8 @@ void delete_data_priority(int num,int priority)
 	
 void create_list(int count)		
 {
+
+	printf("Hiiii");
 	struct node *ptr,*temp,*pr;
 	int i,num,priority;
 	for(i=0;i<count;i++)

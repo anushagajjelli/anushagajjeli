@@ -10,6 +10,16 @@ struct node
 	struct node *prev;
 	struct node *next;
 };
+
+
+
+printf("vivek");
+printf("science");
+printf("sindhu");
+printf("anu");
+
+
+
 struct node *head=NULL;
 void insert(int num,int priority);
 void display();

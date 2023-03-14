@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/basic_driver/modules.order := {   echo /home/engineer/anusha/kernel/basic_driver/basic_driver.ko; :; } | awk '!x[$$0]++' - > /home/engineer/anusha/kernel/basic_driver/modules.order

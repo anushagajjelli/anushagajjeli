@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/device_drivers/module1.mod := printf '%s\n'   module1.o | awk '!x[$$0]++ { print("/home/engineer/anusha/kernel/device_drivers/"$$0) }' > /home/engineer/anusha/kernel/device_drivers/module1.mod

@@ -1,0 +1,15 @@
+--- add.c	2023-02-24 17:34:46.879738113 +0530
++++ sub.c	2023-02-24 17:36:32.956544964 +0530
+@@ -1,7 +1,10 @@
+ #include<stdio.h>
++#include<string.h>
+ void main()
+ {
+-	int a=10,b=20,c;
+-	c=a+b;
++	int a=10;b=20,c,d;
++	c=a*b;
++	d=a-b;
+ 	printf("%d\n",c);
++	printf("%d\n",d);
+ }

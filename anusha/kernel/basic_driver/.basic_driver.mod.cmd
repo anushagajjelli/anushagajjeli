@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/basic_driver/basic_driver.mod := printf '%s\n'   basic_driver.o | awk '!x[$$0]++ { print("/home/engineer/anusha/kernel/basic_driver/"$$0) }' > /home/engineer/anusha/kernel/basic_driver/basic_driver.mod

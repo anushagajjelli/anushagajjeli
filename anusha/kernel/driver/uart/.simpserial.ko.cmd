@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/driver/uart/simpserial.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/engineer/anusha/kernel/driver/uart/simpserial.ko /home/engineer/anusha/kernel/driver/uart/simpserial.o /home/engineer/anusha/kernel/driver/uart/simpserial.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/devfile/basic.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/engineer/anusha/kernel/devfile/basic.ko /home/engineer/anusha/kernel/devfile/basic.o /home/engineer/anusha/kernel/devfile/basic.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/devfile/Module.symvers := sed 's/\.ko$$/\.o/' /home/engineer/anusha/kernel/devfile/modules.order | scripts/mod/modpost -m -a  -o /home/engineer/anusha/kernel/devfile/Module.symvers -e -i Module.symvers   -T -

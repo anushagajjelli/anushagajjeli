@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/driver/uart/simpserial.mod := printf '%s\n'   simpserial.o | awk '!x[$$0]++ { print("/home/engineer/anusha/kernel/driver/uart/"$$0) }' > /home/engineer/anusha/kernel/driver/uart/simpserial.mod

@@ -1,0 +1,16 @@
+void add_at_beginning(int num);
+void delete_at_beginning();
+void display(int num);
+int count(int num);
+int search(int num);
+void delete_entire_list();
+void add_node_at_last(int num);
+void delete_last_node();
+void add_after_a_node(int num,int val);
+void delete_particular_node(int num);
+void add_before_a_node(int num,int val);
+void reverse_the_list();
+void create_list(int *dptr,int n);
+void swap_by_data(int num1,int num2);
+void swap_by_link(int num1,int num2);
+void delete_duplicate_node();

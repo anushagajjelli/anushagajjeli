@@ -1,0 +1,10 @@
+#include<unistd.h>
+#include<stdio.h>
+main()
+{
+	fork();
+	fork();
+	fork();
+	fork();
+	printf("Hi\n");
+}

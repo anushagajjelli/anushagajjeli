@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/driver/blocking/driver_blocking_calls.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/engineer/anusha/kernel/driver/blocking/driver_blocking_calls.ko /home/engineer/anusha/kernel/driver/blocking/driver_blocking_calls.o /home/engineer/anusha/kernel/driver/blocking/driver_blocking_calls.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/driver/uart/modules.order := {   echo /home/engineer/anusha/kernel/driver/uart/simpserial.ko; :; } | awk '!x[$$0]++' - > /home/engineer/anusha/kernel/driver/uart/modules.order

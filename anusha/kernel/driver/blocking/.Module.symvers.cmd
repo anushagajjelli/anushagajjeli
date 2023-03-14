@@ -1,0 +1,1 @@
+cmd_/home/engineer/anusha/kernel/driver/blocking/Module.symvers := sed 's/ko$$/o/' /home/engineer/anusha/kernel/driver/blocking/modules.order | scripts/mod/modpost -m -a  -o /home/engineer/anusha/kernel/driver/blocking/Module.symvers -e -i Module.symvers   -T -
